@@ -372,6 +372,14 @@ include_graphics("./assets/img/islenpmap.webp")
 include_graphics("./assets/img/irwolf.svg")
 ```
 
+--- 
+
+## Wolf reading
+
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
+  include_graphics("./assets/img/sciadv.aau0757.pdf")
+```
+
 --- &twocol
 
 ## Sand lizards, UK

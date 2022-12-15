@@ -307,6 +307,12 @@ strong {
 
 <img src="./assets/img/irwolf.svg" alt="plot of chunk unnamed-chunk-24" width="90%" style="display: block; margin: auto;" />
 
+--- 
+
+## Wolf reading
+
+<embed src="./assets/img/sciadv.aau0757.pdf" title="plot of chunk unnamed-chunk-25" width="100%" height="500" type="application/pdf" />
+
 --- &twocol
 
 ## Sand lizards, UK
@@ -322,19 +328,19 @@ strong {
 
 *** =right
 
-<img src="./assets/img/M_Zauneidechse1_Edit1.jpg" alt="plot of chunk unnamed-chunk-25" width="90%" style="display: block; margin: auto;" />
+<img src="./assets/img/M_Zauneidechse1_Edit1.jpg" alt="plot of chunk unnamed-chunk-26" width="90%" style="display: block; margin: auto;" />
 
 --- .class bg:white
 
 ## Mean heterozygosity
 
-<img src="assets/fig/unnamed-chunk-26-1.png" alt="plot of chunk unnamed-chunk-26" width="70%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-27-1.png" alt="plot of chunk unnamed-chunk-27" width="70%" style="display: block; margin: auto;" />
 
 --- .class bg:white
 
 ## ROHs source and introduced populations
 
-<img src="assets/fig/unnamed-chunk-27-1.png" alt="plot of chunk unnamed-chunk-27" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-27-2.png" alt="plot of chunk unnamed-chunk-27" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-27-3.png" alt="plot of chunk unnamed-chunk-27" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-27-4.png" alt="plot of chunk unnamed-chunk-27" width="100%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-28-1.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-28-2.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-28-3.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-28-4.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" />
 
 ---
 

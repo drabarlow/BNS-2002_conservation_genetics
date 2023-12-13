@@ -44,12 +44,35 @@ strong {
   - **Methods**
   - **Discoveries**
 
----
+--- 
 
-## 3rd year module
+## MEEB
 
-```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center"}
-  include_graphics("./assets/img/Screenshot from 2022-12-15 11-16-07.png")
+**Molecular Ecology and Evolution at Bangor**
+
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
+include_graphics("./assets/img/mb.svg")
+```
+
+- 3rd year module "Molecular ecology and evolution"
+- Dissertation and MSc projects
+
+--- bg:white
+
+## Revision
+
+- lecture material
+- Relevant chapters in course textbooks (phylogenetics, population structure and conservation genetics)
+- Overview of some of the discussed studies (plus any others you find)
+- You may need to draw simple trees:
+  - by hand and upload photo
+  - newick format: **((human,chimp),cat)**
+
+```{r, out.width = "25%", fig.width = 2, fig.height = 2, dpi = 600, echo = FALSE, fig.cap=""}
+
+my.tree <- read.tree(text="((human,chimp),cat);")
+par(mar=c(1,1,1,1))
+plot(my.tree)
 ```
 
 --- .segue .dark 
@@ -93,7 +116,7 @@ strong {
 
 ### Reduced evolutionary potential
 
-- Selection acts on variants in the population drivig adaptation
+- Selection acts on variants in the population driving adaptation
 - Unpredictable because we don't know the future precisely (disease, climate change, etc)
 
 --- &twocol
@@ -109,11 +132,11 @@ strong {
 
 *** =right
 
-```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/adder_female3.JPG")
 ```
 
-```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/adder_male2.JPG")
 ```
 
@@ -123,7 +146,7 @@ strong {
 
 *** =left
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/adders.svg")
 ```
 
@@ -142,7 +165,7 @@ strong {
 
 ## Adders background reading
 
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
   include_graphics("./assets/img/Madsen_adders.pdf")
 ```
 
@@ -161,7 +184,7 @@ strong {
 
 ## Inbreeding
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/recom_roh.svg")
 ```
 
@@ -177,7 +200,7 @@ strong {
 
 - Many methods
 - Heterozygosity is simple and often used
-- Note across a large number of loci, heterozosity is same for all individuals in a populaiton (HWE)
+- Note across a large number of loci, heterozosity is same for all individuals in a population (HWE)
 
 ### Getting data
 
@@ -189,9 +212,9 @@ strong {
 
 ---
 
-## Shotgun whole genome sequencing
+## Genomics
 
-```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/aDNA_seq.svg")
 ```
 
@@ -199,7 +222,7 @@ include_graphics("./assets/img/aDNA_seq.svg")
 
 ## Multispecies comparisons
 
-```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/cat_het.svg")
 ```
 
@@ -214,7 +237,7 @@ include_graphics("./assets/img/cat_het.svg")
 - Plus knowledge of pedigree not required
 - In particular, genome sequencing allows identification of **runs of homozygosity (ROH)**
 
-```{r, out.width = "95%", fig.width = 8, fig.height = 3, dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "95%", fig.width = 8, fig.height = 3, dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 my_roh_hi <- jitter(c(rep(0.0013, times=100)), factor=5)
 my_roh_lo <- jitter(c(rep(0.0000000001, times=100)), factor=6)
 my_roh <- c(my_roh_hi, my_roh_lo, my_roh_lo, my_roh_hi, my_roh_hi, my_roh_hi, my_roh_lo, my_roh_hi, my_roh_hi, my_roh_hi)
@@ -237,7 +260,7 @@ axis(2, at=c(0,0.0005,0.001,0.0015), labels=c("0","0.5","1.0","1.5"), las=2)
 
 ## IUCN designation and diversity poorly correlated
 
-```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "87%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/iucn.svg")
 ```
 
@@ -245,7 +268,7 @@ include_graphics("./assets/img/iucn.svg")
 
 ## IUCN designation reading
 
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
   include_graphics("./assets/img/Díez-del-Molino et al. - 2018 - Quantifying Temporal Genomic Erosion in Endangered Species(2).pdf")
 ```
 
@@ -259,17 +282,17 @@ include_graphics("./assets/img/iucn.svg")
 - ~20,000 southern white rhinos (in 2015)
 - Northern white rhino functionally extinct (2 females left in 2018)
 
-```{r, out.width = "65%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "65%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/rhin_map.svg")
 ```
 
 *** =right
 
-```{r, out.width = "60%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "60%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/1920px-Ceratotherium_simum_(21922261908).jpg")
 ```
 
-```{r, out.width = "75%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "75%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/rhin_demo.svg")
 ```
 
@@ -277,7 +300,7 @@ include_graphics("./assets/img/rhin_demo.svg")
 
 ## White rhinos (*Ceratotherium simum*)
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/rhin_res.svg")
 ```
 
@@ -285,7 +308,7 @@ include_graphics("./assets/img/rhin_res.svg")
 
 ## White rhinos background reading
 
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
   include_graphics("./assets/img/Sánchez-Barreiro et al. - 2021 - Historical population declines prompted significant genomic erosion in the northern and southern white.pdf")
 ```
 
@@ -304,7 +327,7 @@ include_graphics("./assets/img/rhin_res.svg")
 
 *** =right
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/puma_10.jpg")
 ```
 
@@ -312,7 +335,7 @@ include_graphics("./assets/img/puma_10.jpg")
 
 ## Pumas (*Puma concolor*)
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/puma_map.svg")
 ```
 
@@ -321,7 +344,7 @@ include_graphics("./assets/img/puma_map.svg")
 
 ## Pumas (*Puma concolor*)
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/puma_roh.svg")
 ```
 
@@ -329,7 +352,7 @@ include_graphics("./assets/img/puma_roh.svg")
 
 ## Pumas (*Puma concolor*)
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/puma_gen.svg")
 ```
 
@@ -337,7 +360,7 @@ include_graphics("./assets/img/puma_gen.svg")
 
 ## Pumas background reading
 
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
   include_graphics("./assets/img/Saremi et al. - 2019 - Puma genomes from North and South America provide insights into the genomic consequences of inbreeding.pdf")
 ```
 
@@ -356,11 +379,11 @@ include_graphics("./assets/img/puma_gen.svg")
 
 *** =right
 
-```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/wolf-isle-royale.jpg")
 ```
 
-```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/islenpmap.webp")
 ```
 
@@ -368,7 +391,7 @@ include_graphics("./assets/img/islenpmap.webp")
 
 ## Isle Royale wolves
 
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/irwolf.svg")
 ```
 
@@ -376,7 +399,7 @@ include_graphics("./assets/img/irwolf.svg")
 
 ## Wolf reading
 
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
   include_graphics("./assets/img/sciadv.aau0757.pdf")
 ```
 
@@ -395,7 +418,7 @@ include_graphics("./assets/img/irwolf.svg")
 
 *** =right
 
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/M_Zauneidechse1_Edit1.jpg")
 ```
 
@@ -403,7 +426,7 @@ include_graphics("./assets/img/M_Zauneidechse1_Edit1.jpg")
 
 ## Mean heterozygosity
 
-```{r, out.width = "70%", fig.width = 4, fig.height = 3.5, dpi = 600, fig.align = "center", echo = FALSE}
+```{r, out.width = "70%", fig.width = 4, fig.height = 3.5, dpi = 600, fig.align = "center", echo = FALSE, fig.cap=""}
 
 my_mean <- read.table("./data/means")
 
@@ -424,7 +447,7 @@ axis(1, at=c(1:16), labels=my_mean$V2, las=3, cex.axis=0.8)
 
 ## ROHs source and introduced populations
 
-```{r, out.width = "100%", fig.width = 12, fig.height = 1.7, dpi = 600, fig.align = "center", echo = FALSE}
+```{r, out.width = "100%", fig.width = 12, fig.height = 1.7, dpi = 600, fig.align = "center", echo = FALSE, fig.cap=""}
 my_het <- read.table("./data/het", header=TRUE, fill=TRUE)
 
 par(mar=c(2,2,2,1))
@@ -438,12 +461,36 @@ plot(c(1:114), my_het$X4ya_har, main="harlech", type="h", ylim=c(0,0.015), xlab=
 
 ---
 
-## Revision
+--- &twocol
 
-- lecture material
-- Relevant chapters in course textbooks (phylogenetics, population structure and conservation genetics)
-- Overview of some of the discussed studies (plus any others you find)
-- Example exam questions to follow
+## Adders, UK
+
+*** =left
+
+- UK redlist 
+- Threatened England
+- Near threatened Wales, Scotland
+- Large scale declines
+- Many pops < 10 adults
+
+*** =right
+
+```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
+  include_graphics("./assets/img/adder_female3.JPG")
+```
+
+```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
+  include_graphics("./assets/img/adder_male2.JPG")
+```
+
+---
+
+## Adders, UK
+
+
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
+  include_graphics("./assets/img/adder.svg")
+```
 
 --- &thankyou
 

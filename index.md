@@ -38,11 +38,29 @@ strong {
   - **Methods**
   - **Discoveries**
 
----
+--- 
 
-## 3rd year module
+## MEEB
 
-<img src="./assets/img/Screenshot from 2022-12-15 11-16-07.png" alt="plot of chunk unnamed-chunk-1" width="70%" style="display: block; margin: auto;" />
+**Molecular Ecology and Evolution at Bangor**
+
+<img src="./assets/img/mb.svg" width="100%" style="display: block; margin: auto;" />
+
+- 3rd year module "Molecular ecology and evolution"
+- Dissertation and MSc projects
+
+--- bg:white
+
+## Revision
+
+- lecture material
+- Relevant chapters in course textbooks (phylogenetics, population structure and conservation genetics)
+- Overview of some of the discussed studies (plus any others you find)
+- You may need to draw simple trees:
+  - by hand and upload photo
+  - newick format: **((human,chimp),cat)**
+
+<img src="assets/fig/unnamed-chunk-2-1.png" width="25%" />
 
 --- .segue .dark 
 
@@ -85,7 +103,7 @@ strong {
 
 ### Reduced evolutionary potential
 
-- Selection acts on variants in the population drivig adaptation
+- Selection acts on variants in the population driving adaptation
 - Unpredictable because we don't know the future precisely (disease, climate change, etc)
 
 --- &twocol
@@ -101,9 +119,9 @@ strong {
 
 *** =right
 
-<img src="./assets/img/adder_female3.JPG" alt="plot of chunk unnamed-chunk-2" width="70%" style="display: block; margin: auto;" />
+<img src="./assets/img/adder_female3.JPG" width="70%" style="display: block; margin: auto;" />
 
-<img src="./assets/img/adder_male2.JPG" alt="plot of chunk unnamed-chunk-3" width="70%" style="display: block; margin: auto;" />
+<img src="./assets/img/adder_male2.JPG" width="70%" style="display: block; margin: auto;" />
 
 --- &twocol
 
@@ -111,7 +129,7 @@ strong {
 
 *** =left
 
-<img src="./assets/img/adders.svg" alt="plot of chunk unnamed-chunk-4" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/adders.svg" width="100%" style="display: block; margin: auto;" />
 
 *** =right
 
@@ -128,7 +146,7 @@ strong {
 
 ## Adders background reading
 
-<embed src="./assets/img/Madsen_adders.pdf" title="plot of chunk unnamed-chunk-5" width="100%" height="500" type="application/pdf" />
+<embed src="./assets/img/Madsen_adders.pdf" width="100%" height="500" type="application/pdf" />
 
 --- 
 
@@ -145,7 +163,7 @@ strong {
 
 ## Inbreeding
 
-<img src="./assets/img/recom_roh.svg" alt="plot of chunk unnamed-chunk-6" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/recom_roh.svg" width="100%" style="display: block; margin: auto;" />
 
 --- .segue .dark 
 
@@ -159,7 +177,7 @@ strong {
 
 - Many methods
 - Heterozygosity is simple and often used
-- Note across a large number of loci, heterozosity is same for all individuals in a populaiton (HWE)
+- Note across a large number of loci, heterozosity is same for all individuals in a population (HWE)
 
 ### Getting data
 
@@ -171,15 +189,15 @@ strong {
 
 ---
 
-## Shotgun whole genome sequencing
+## Genomics
 
-<img src="./assets/img/aDNA_seq.svg" alt="plot of chunk unnamed-chunk-7" width="95%" style="display: block; margin: auto;" />
+<img src="./assets/img/aDNA_seq.svg" width="95%" style="display: block; margin: auto;" />
 
 ---
 
 ## Multispecies comparisons
 
-<img src="./assets/img/cat_het.svg" alt="plot of chunk unnamed-chunk-8" width="95%" style="display: block; margin: auto;" />
+<img src="./assets/img/cat_het.svg" width="95%" style="display: block; margin: auto;" />
 
 *Barnett et al. 2020. Current Biology*
 
@@ -192,7 +210,7 @@ strong {
 - Plus knowledge of pedigree not required
 - In particular, genome sequencing allows identification of **runs of homozygosity (ROH)**
 
-<img src="assets/fig/unnamed-chunk-9-1.png" alt="plot of chunk unnamed-chunk-9" width="95%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-10-1.png" width="95%" style="display: block; margin: auto;" />
 
 --- .segue .dark 
 
@@ -202,13 +220,13 @@ strong {
 
 ## IUCN designation and diversity poorly correlated
 
-<img src="./assets/img/iucn.svg" alt="plot of chunk unnamed-chunk-10" width="95%" style="display: block; margin: auto;" />
+<img src="./assets/img/iucn.svg" width="87%" style="display: block; margin: auto;" />
 
 ---
 
 ## IUCN designation reading
 
-<embed src="./assets/img/Díez-del-Molino et al. - 2018 - Quantifying Temporal Genomic Erosion in Endangered Species(2).pdf" title="plot of chunk unnamed-chunk-11" width="100%" height="500" type="application/pdf" />
+<embed src="./assets/img/Díez-del-Molino et al. - 2018 - Quantifying Temporal Genomic Erosion in Endangered Species(2).pdf" width="100%" height="500" type="application/pdf" />
 
 --- &twocol
 
@@ -220,25 +238,25 @@ strong {
 - ~20,000 southern white rhinos (in 2015)
 - Northern white rhino functionally extinct (2 females left in 2018)
 
-<img src="./assets/img/rhin_map.svg" alt="plot of chunk unnamed-chunk-12" width="65%" style="display: block; margin: auto;" />
+<img src="./assets/img/rhin_map.svg" width="65%" style="display: block; margin: auto;" />
 
 *** =right
 
-<img src="./assets/img/1920px-Ceratotherium_simum_(21922261908).jpg" alt="plot of chunk unnamed-chunk-13" width="60%" style="display: block; margin: auto;" />
+<img src="./assets/img/1920px-Ceratotherium_simum_(21922261908).jpg" width="60%" style="display: block; margin: auto;" />
 
-<img src="./assets/img/rhin_demo.svg" alt="plot of chunk unnamed-chunk-14" width="75%" style="display: block; margin: auto;" />
+<img src="./assets/img/rhin_demo.svg" width="75%" style="display: block; margin: auto;" />
 
 ---
 
 ## White rhinos (*Ceratotherium simum*)
 
-<img src="./assets/img/rhin_res.svg" alt="plot of chunk unnamed-chunk-15" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/rhin_res.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## White rhinos background reading
 
-<embed src="./assets/img/Sánchez-Barreiro et al. - 2021 - Historical population declines prompted significant genomic erosion in the northern and southern white.pdf" title="plot of chunk unnamed-chunk-16" width="100%" height="500" type="application/pdf" />
+<embed src="./assets/img/Sánchez-Barreiro et al. - 2021 - Historical population declines prompted significant genomic erosion in the northern and southern white.pdf" width="100%" height="500" type="application/pdf" />
 
 --- &twocol
 
@@ -255,32 +273,32 @@ strong {
 
 *** =right
 
-<img src="./assets/img/puma_10.jpg" alt="plot of chunk unnamed-chunk-17" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/puma_10.jpg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## Pumas (*Puma concolor*)
 
-<img src="./assets/img/puma_map.svg" alt="plot of chunk unnamed-chunk-18" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/puma_map.svg" width="100%" style="display: block; margin: auto;" />
 
 
 ---
 
 ## Pumas (*Puma concolor*)
 
-<img src="./assets/img/puma_roh.svg" alt="plot of chunk unnamed-chunk-19" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/puma_roh.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## Pumas (*Puma concolor*)
 
-<img src="./assets/img/puma_gen.svg" alt="plot of chunk unnamed-chunk-20" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/puma_gen.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## Pumas background reading
 
-<embed src="./assets/img/Saremi et al. - 2019 - Puma genomes from North and South America provide insights into the genomic consequences of inbreeding.pdf" title="plot of chunk unnamed-chunk-21" width="100%" height="500" type="application/pdf" />
+<embed src="./assets/img/Saremi et al. - 2019 - Puma genomes from North and South America provide insights into the genomic consequences of inbreeding.pdf" width="100%" height="500" type="application/pdf" />
 
 --- &twocol
 
@@ -297,21 +315,21 @@ strong {
 
 *** =right
 
-<img src="./assets/img/wolf-isle-royale.jpg" alt="plot of chunk unnamed-chunk-22" width="85%" style="display: block; margin: auto;" />
+<img src="./assets/img/wolf-isle-royale.jpg" width="85%" style="display: block; margin: auto;" />
 
-<img src="./assets/img/islenpmap.webp" alt="plot of chunk unnamed-chunk-23" width="85%" style="display: block; margin: auto;" />
+<img src="./assets/img/islenpmap.webp" width="85%" style="display: block; margin: auto;" />
 
 ---
 
 ## Isle Royale wolves
 
-<img src="./assets/img/irwolf.svg" alt="plot of chunk unnamed-chunk-24" width="90%" style="display: block; margin: auto;" />
+<img src="./assets/img/irwolf.svg" width="90%" style="display: block; margin: auto;" />
 
 --- 
 
 ## Wolf reading
 
-<embed src="./assets/img/sciadv.aau0757.pdf" title="plot of chunk unnamed-chunk-25" width="100%" height="500" type="application/pdf" />
+<embed src="./assets/img/sciadv.aau0757.pdf" width="100%" height="500" type="application/pdf" />
 
 --- &twocol
 
@@ -328,28 +346,46 @@ strong {
 
 *** =right
 
-<img src="./assets/img/M_Zauneidechse1_Edit1.jpg" alt="plot of chunk unnamed-chunk-26" width="90%" style="display: block; margin: auto;" />
+<img src="./assets/img/M_Zauneidechse1_Edit1.jpg" width="90%" style="display: block; margin: auto;" />
 
 --- .class bg:white
 
 ## Mean heterozygosity
 
-<img src="assets/fig/unnamed-chunk-27-1.png" alt="plot of chunk unnamed-chunk-27" width="70%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-28-1.png" width="70%" style="display: block; margin: auto;" />
 
 --- .class bg:white
 
 ## ROHs source and introduced populations
 
-<img src="assets/fig/unnamed-chunk-28-1.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-28-2.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-28-3.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-28-4.png" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-29-1.png" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-29-2.png" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-29-3.png" width="100%" style="display: block; margin: auto;" /><img src="assets/fig/unnamed-chunk-29-4.png" width="100%" style="display: block; margin: auto;" />
 
 ---
 
-## Revision
+--- &twocol
 
-- lecture material
-- Relevant chapters in course textbooks (phylogenetics, population structure and conservation genetics)
-- Overview of some of the discussed studies (plus any others you find)
-- Example exam questions to follow
+## Adders, UK
+
+*** =left
+
+- UK redlist 
+- Threatened England
+- Near threatened Wales, Scotland
+- Large scale declines
+- Many pops < 10 adults
+
+*** =right
+
+<img src="./assets/img/adder_female3.JPG" width="70%" style="display: block; margin: auto;" />
+
+<img src="./assets/img/adder_male2.JPG" width="70%" style="display: block; margin: auto;" />
+
+---
+
+## Adders, UK
+
+
+<img src="./assets/img/adder.svg" width="100%" style="display: block; margin: auto;" />
 
 --- &thankyou
 

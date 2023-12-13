@@ -372,7 +372,7 @@ include_graphics("./assets/img/puma_gen.svg")
 
 - Colonised 2-3 wolves in 1940s
 - Expanded to 50 individuals
-- Crashed to 14 individuals in 1908s
+- Crashed to 14 individuals in 1980s
 - Notable improvement 1997 with migration of a single male, followed by second crash
 - Moose increased in this period
 - 2 wolves left in 2018: father-daughter and half sibs
